@@ -1,0 +1,254 @@
+#landing{
+    position: relative;
+    top: 20%;
+    left: 0px;
+    width: 70%;
+    height: 90%;
+    background: transparent url('hero@2x.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    border-radius: 2%;
+}
+#head1{
+    position: relative;
+    top: 200px;
+    left: 100px;
+    width: 251px;
+    height: 30px;
+    text-align: left;
+    font: normal normal 600 30px/110px Cormorant SC;
+    letter-spacing: 0px;
+    color: #FF3147;
+    text-transform: uppercase;
+    opacity: 1;
+    font-size: 25px;
+}
+h1{
+    position: relative;
+    top: 220px;
+    left: 100px;
+    width: 614px;
+    height: 140px;
+    text-align: left;
+    font: normal normal bold 60px/80px Cormorant SC;
+    letter-spacing: 0px;
+    color: #000000;
+    text-transform: uppercase;
+    opacity: 1;
+    font-size: 50px;
+}
+#landingp{
+    position: relative;
+    top: 250px;
+    left: 100px;
+    width: 614px;
+    height: 140px;
+    text-align: left;
+    font: normal normal normal 20px/30px Poppins;
+    letter-spacing: 0px;
+    color: #000000;
+    text-transform: none;
+    opacity: 1;
+    font-size: 16px;
+}
+.btn.btn-danger.mt-auto {
+    top: 0px;
+    position: relative;
+    left: 100px;
+    width: 22%;
+    font-family: Poppins, sans-serif;
+    font-size: 14px;
+    font-weight: light;
+    background-color: #FF3147;
+}
+.btn.btn-primary{
+    background-color: #FF3147;
+    border: none;
+    width: 100%;
+    font-family: Poppins, sans-serif;
+}
+/* Custom Input Styles */
+.form-control-underline {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #000; /* Change color as needed */
+    border-radius: 0;
+    box-shadow: none;
+}
+
+.form-control-underline:focus {
+    border-bottom: 2px solid #007bff; /* Change focus color as needed */
+    outline: 0;
+}
+#wwd{
+    text-align: left;
+    font: normal normal 600 30px/110px Cormorant SC;
+    letter-spacing: 0px;
+    color: #FF3147;
+    text-transform: uppercase;
+    opacity: 1;
+    font-size: 25px;
+    margin-left: 15px;
+}
+#secondp{
+    position: relative;
+    top: 250px;
+    text-align: left;
+    font: normal normal normal 20px/30px Poppins;
+    letter-spacing: 0px;
+    color: #000000;
+    text-transform: none;
+    opacity: 1;
+    font-size: 16px;
+}
+.side-by-side {
+    display: flex;
+    justify-content: center; /* Center the images horizontally */
+    align-items: center; /* Align the images vertically */
+  }
+.carousel-container {
+  overflow: hidden;
+  width: 100%;
+  position: relative;
+  top: 150px;
+  margin: 10px
+}
+
+.carousel-slide {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+  position: relative;
+  top: 100px;
+  justify-content: space-around;
+}
+
+.carousel-slide img {
+  width: 20%;
+  flex: 0 0 auto;
+  top: 300px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.carousel-navigation {
+  text-align: left;
+  position: relative;
+  top: 200px;
+}
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: white;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+  border: 1px solid #FF3147;
+}
+.dot .active{
+  background-color: #FF3147;
+}
+
+#page3{
+    position: relative;
+    top: 300px;
+    text-align: left;
+    font: normal normal 600 30px/110px Cormorant SC;
+    letter-spacing: 0px;
+    color: #FF3147;
+    text-transform: uppercase;
+    opacity: 1;
+    font-size: 25px;
+    margin-left: 15px;
+}
+.row2 {
+  position: relative;
+  top: 250px;
+  left: 50px;
+  display: flex;
+  justify-content: space-between; /* Adjust as needed */
+  flex-wrap: nowrap; /* Prevents flex items from wrapping */
+}
+
+.col2 {
+  flex: 0 0 25%; /* Do not grow, do not shrink, initial basis of 25% */
+  /* Ensure there's no top property causing layout issues */
+}
+
+.left-column, .right-column {
+  flex: 1;
+}
+
+.row {
+  cursor: pointer;
+  padding: 10px;
+  transition: all 0.3s ease-in-out;
+}
+
+.row.active {
+  background-color: #FF3147;
+  color: white;
+}
+.right-column{
+  width: 25%;
+  position: relative;
+  top: -200px;
+  left: 60%;
+  background: #F6F6F6 0% 0% no-repeat padding-box;
+}
+.left-column{
+  width: 50%;
+  position: relative;
+}
+.box {
+  background-color: white;
+  padding: 20px;
+  margin: 10px 0; /* Space between boxes and other content */
+  height: auto; /* Fixed height to ensure square shape */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 20%;
+}
+
+.box-logo {
+  max-height: 50px; /* Adjust logo size */
+  margin-bottom: 15px; /* Space between logo and heading */
+}
+
+/* Ensure the content is centered within each box */
+.box h4, .box p {
+  text-align: center;
+}
+.box:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: box-shadow 0.3s ease-in-out;
+}
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  flex: 1 0 auto;
+}
+
+.site-footer {
+  flex-shrink: 0;
+  /* Existing styles */
+  background-color: #FF3147;
+  background-position: center;
+  color: white;
+  padding: 20px 0;
+  position: relative; /* Change this to 'fixed' if you want it always at the bottom of the screen */
+  width: 100%;
+  bottom: 0;
+  height: 200px;
+}
